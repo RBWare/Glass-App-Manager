@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rbware.glassappmanager.MainActivity"
+    >
+
+    <com.google.android.glass.widget.CardScrollView
+            android:id="@+id/card_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="No applications found"
+            android:id="@+id/noAppsFound"
+            android:visibility="invisible"
+            />
+
+</RelativeLayout>

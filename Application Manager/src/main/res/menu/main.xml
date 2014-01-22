@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rbware.glassappmanager.MainActivity" >
+    
+    <item android:id="@+id/action_uninstall"
+        android:title="@string/action_uninstall"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_delete_50"
+        android:showAsAction="ifRoom" />
+</menu>
